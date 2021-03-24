@@ -3,4 +3,32 @@ body {
 }
 
 #Welcome {
+  height: 400px;
+  background-image: url("https://nsa40.casimages.com/img/2021/03/23/210323110459863187.png");
+  background-size: cover;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  background: rgb(172, 1, 1);
+  justify-content: space-around;
+  padding: 12px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: goldenrod;
 }
